@@ -2,9 +2,9 @@ class CreateIngredients < ActiveRecord::Migration
   def change
     create_table :ingredients do |t|
       t.string :name
-      t.belongs_to :recipe, index: true, foreign_key: true
+      t.belongs_to :recipe, index: true
 
-      t.timestamps null: false
+      t.timestamps 
     end
   end
 end
