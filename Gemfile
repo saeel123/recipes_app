@@ -28,6 +28,7 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'paperclip', '~> 4.3.1'
 gem 'imagemagick-identify', '~> 0.0.1'
 gem 'cocoon', '~> 1.2.6'
+gem 'devise', '~> 3.5.2'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
